@@ -23,8 +23,8 @@ st.set_page_config(
 )
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-_HERE = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(_HERE, "..", "data", "hillstrom.csv")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_PATH = os.path.join(BASE_DIR, "data", "hillstrom.csv")
 
 # ── Shared colour palette ─────────────────────────────────────────────────────
 C_CTRL = "#4C72B0"

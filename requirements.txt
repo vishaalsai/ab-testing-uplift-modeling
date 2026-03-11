@@ -7,7 +7,6 @@ matplotlib
 seaborn
 plotly
 pingouin
-causalml
 streamlit
 jupyter
 notebook
